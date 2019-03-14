@@ -39,11 +39,3 @@ You can also try to do a GET to
 [http://localhost:3010/api/private-scoped](http://localhost:3010/api/private-scoped) which will throw an error if
 you don't send an access token with the scope `read:messages` signed with RS256 with the appropriate issuer and audience
 in the Authorization header.
-
-# Running the example with Docker
-
-In order to run the sample with [Docker](https://www.docker.com/) you need to add the `AUTH0_DOMAIN` and `API_ID`
-to the `.env` filed as explained [previously](#running-the-example) and then
-
-1. Execute in command line `sh exec.sh` to run the Docker in Linux, or `.\exec.ps1` to run the Docker in Windows.
-2. Try calling [http://localhost:3010/api/public](http://localhost:3010/api/public)
