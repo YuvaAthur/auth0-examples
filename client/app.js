@@ -9,7 +9,7 @@ window.addEventListener('load', function() {
   loadingSpinner.style.display = 'none';
 
   var userProfile;
-  var apiUrl = 'http://localhost:3010/api';
+  var apiUrl = 'http://ec2-3-17-142-194.us-east-2.compute.amazonaws.com:3010/api';
 
   var webAuth = new auth0.WebAuth({
     domain: AUTH0_DOMAIN,
