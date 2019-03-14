@@ -8,10 +8,10 @@ If you haven't already done so, [sign up](https://auth0.com) for your free Auth0
 
 If you haven't already done so, create a new API in the [APIs section](https://manage.auth0.com/#/apis) and provide an identifier for it.
 
-Clone the repo or download it from the JavaScript quickstart page in Auth0's documentation.
+Clone this repository, and run the following commands from the repository root directory:
 
 ```bash
-cd 03-Calling-an-API
+cd client
 npm install
 ```
 
